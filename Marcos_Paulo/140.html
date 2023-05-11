@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        
+      body {
+        margin: 50;
+        background: #4f77ff;
+      }
+
+      .board{
+        height: 300px;
+        width: 400px;
+      }
+
+      .white-circle {
+        background: #ffffff;
+
+        position: fixed;
+        left: 160px;
+        bottom: 170;
+
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+      }
+
+      .blue-circle {
+        background: #4f77ff;
+
+        position: fixed;
+        left: 160px;
+        bottom: 130px;
+
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+      }
+
+      .triangle {
+        background: #1038bf;
+
+        position: relative;
+        height: 300px;
+        width: 300px;
+
+        top: 150px;
+
+        rotate: 45deg;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="board">
+        <div class="white-circle"></div>
+        <div class="blue-circle"></div>
+        <div class="triangle"></div>
+    </div>
+    </body>
+</html>
