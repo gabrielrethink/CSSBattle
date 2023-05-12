@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Battle - 140</title>
+    <title>CSS Battle - 140 copy</title>
 
     <style>
         body {
           display: flex;
+          flex-direction: column;
           justify-content: center;
-          align-items: flex-end;
+          align-items: center;
           background: #4F77FF;
           margin: 0px;
           height: 100vh;
         }
         
         .container {
-          height: 300px;
+          margin-top: 50px;
         }
 
         .lua {
@@ -47,6 +48,14 @@
           rotate: 45deg;
           margin-top: 70px;
         }
+
+        .retangulo {
+          width: 100%;
+          height: 300px;
+          background: #4F77FF;
+          z-index: 1;
+          margin-top: -150px;
+        }
       </style>
 </head>
 <body>
@@ -54,7 +63,7 @@
         <div class="lua"></div>
         <div class="circulo"></div>
         <div class="triangulo"></div>
-        <div class="triangulo2"></div>
       </div>
+      <div class="retangulo"></div>
 </body>
 </html>
