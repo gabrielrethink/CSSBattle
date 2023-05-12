@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle - 3</title>
+      <style>
+        body{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #6592CF;
+          margin: 0px;
+          height: 100vh;
+        }
+      
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 300px;
+          height: 150px;
+          background: #243D83;
+        }
+        
+        .circ-amarelo {
+          width: 50px;
+          height: 50px;
+          background: #EEB850;
+          
+          position: absolute;
+          border-radius: 50px;
+          z-index: 2;
+        }
+      
+        .circ-azul {
+          width: 150px;
+          height: 150px;
+          background: #243D83;
+          
+          position: absolute;
+          border-radius: 100px
+        }
+      
+        .circ-azul-claro{
+          width: 250px;
+          height: 250px;
+          background:#6592CF;
+      
+          border-radius: 250px;
+        }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circ-amarelo"></div>
+        <div class="circ-azul"></div>
+        <div class="circ-azul-claro"></div>
+      </div>
+    
+</body>
+</html>
