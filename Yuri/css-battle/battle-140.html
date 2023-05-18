@@ -1,69 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Battle - 140 copy</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Battle - 140</title>
 
     <style>
-        body {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          background: #4F77FF;
-          margin: 0px;
-          height: 100vh;
-        }
-        
-        .container {
-          margin-top: 50px;
-        }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #4f77ff;
+        margin: 0px;
+        height: 100vh;
+      }
 
-        .lua {
-          width: 80px;
-          height: 80px;
-          background: #FFFFFF;
-      
-          border-radius: 100px;
-          margin: 50px auto;
-        }
-        
-        .circulo {
-          width: 80px;
-          height: 40px;
-          background: #4F77FF;
-      
-          border-top-left-radius: 50px;
-          border-top-right-radius: 50px;
-          margin: -90px auto 0px;
-        }
-      
-        .triangulo {
-          width: 300px;
-          height: 300px;
-          background: #1038BF;
-      
-          rotate: 45deg;
-          margin-top: 70px;
-        }
+      .container {
+        margin-top: 48px;
+      }
 
-        .retangulo {
-          width: 100%;
-          height: 300px;
-          background: #4F77FF;
-          z-index: 1;
-          margin-top: -150px;
-        }
-      </style>
-</head>
-<body>
+      .lua {
+        width: 80px;
+        height: 80px;
+        background: #ffffff;
+
+        border-radius: 100px;
+        margin: 45px auto 60px;
+      }
+
+      .semi-circulo {
+        width: 80px;
+        height: 40px;
+        background: #4f77ff;
+
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin: -100px auto 8px;
+      }
+
+      .mont {
+        width: 0;
+        height: 0;
+        border-left: 205px solid transparent;
+        border-right: 205px solid transparent;
+        border-bottom: 205px solid #1038bf;
+      }
+    </style>
+  </head>
+  <body>
     <div class="container">
-        <div class="lua"></div>
-        <div class="circulo"></div>
-        <div class="triangulo"></div>
-      </div>
-      <div class="retangulo"></div>
-</body>
+      <div class="lua"></div>
+      <div class="semi-circulo"></div>
+      <div class="mont"></div>
+    </div>
+  </body>
 </html>
