@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desafio 53</title>
+    <style>
+      body {
+        width: 400px;
+        height: 300px;
+        background: #19191a;
+        margin: 0;
+      }
+      #ret {
+        background: #f9e492;
+        position: fixed;
+        width: 75px;
+        height: 125px;
+        left: 125px;
+        top: 125px;
+      }
+
+      #circle {
+        background: #4f77ff;
+        position: fixed;
+        width: 150px;
+        height: 150px;
+        left: 125px;
+        top: 50;
+        border-radius: 50%;
+      }
+
+      #semiCircle {
+        background: #9ad5ff;
+        position: fixed;
+        width: 150px;
+        height: 150px;
+        left: 50px;
+        top: 125;
+        clip-path: circle(75px at 150px 00px);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ret"></div>
+    <div id="circle"></div>
+    <div id="semiCircle"></div>
+  </body>
+</html>
