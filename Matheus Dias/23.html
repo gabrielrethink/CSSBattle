@@ -7,21 +7,16 @@
     <title>CSSBattle 23</title>
   </head>
   <body>
-    <div id="container">
-      <div id="box1">
-        <div id="box2" class="children">
-          <div id="box3" class="children"></div>
-        </div>
+    <div class="box1">
+      <div class="box2 innerBox">
+        <div class="box3 innerBox"></div>
       </div>
     </div>
 
     <style>
       body {
-        background: #f3ac3c;
-        display: flex;
         margin: 0;
-      }
-      #container {
+        padding: 0;
         width: 100vw;
         height: 100vh;
         background: #f3ac3c;
@@ -30,24 +25,23 @@
         justify-content: center;
         align-items: center;
       }
-      #box1 {
+      .box1 {
         width: 50vw;
         height: 66.6vh;
         position: relative;
-        margin: auto;
         background: #1a4341;
       }
-      .children {
+      .innerBox {
         height: 50%;
         width: 50%;
       }
-      #box2 {
+      .box2 {
         position: absolute;
         background: #998235;
         left: 0;
         bottom: 0;
       }
-      #box3 {
+      .box3 {
         background: #f3ac3c;
         position: absolute;
         right: 0;
